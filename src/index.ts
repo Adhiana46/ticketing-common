@@ -1,15 +1,15 @@
-interface Color {
-  red: number;
-  green: number;
-  blue: number;
-}
+export {
+  BadRequestError,
+  CustomError,
+  DatabaseConnectionError,
+  NotAuthorizeError,
+  NotFoundError,
+  RequestValidationError,
+} from "./errors";
 
-const color: Color = {
-  red: 20,
-  green: 20,
-  blue: 22,
-};
-
-console.log(color);
-
-export default color;
+export {
+  currentUser,
+  errorHandler,
+  requireAuth,
+  validateRequest,
+} from "./middlewares";
