@@ -13,3 +13,11 @@ export {
   requireAuth,
   validateRequest,
 } from "./middlewares";
+
+export {
+  Listener,
+  Publisher,
+  Subjects,
+  TicketCreatedEvent,
+  TicketUpdatedEvent,
+} from "./events";
