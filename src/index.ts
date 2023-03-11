@@ -21,3 +21,5 @@ export {
   TicketCreatedEvent,
   TicketUpdatedEvent,
 } from "./events";
+
+export * from "./events/types/order-status";
