@@ -20,6 +20,8 @@ export {
   Subjects,
   TicketCreatedEvent,
   TicketUpdatedEvent,
+  OrderCreatedEvent,
+  OrderCanceledUserEvent,
 } from "./events";
 
 export * from "./events/types/order-status";
