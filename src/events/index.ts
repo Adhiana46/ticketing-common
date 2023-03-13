@@ -4,4 +4,4 @@ export { default as Subjects } from "./subjects";
 export { default as TicketCreatedEvent } from "./ticket-created-event";
 export { default as TicketUpdatedEvent } from "./ticket-updated-event";
 export { default as OrderCreatedEvent } from "./order-created-event";
-export { default as OrderCanceledUserEvent } from "./order-cancelled-user-event";
+export { default as OrderCancelledUserEvent } from "./order-cancelled-user-event";
