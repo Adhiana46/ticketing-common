@@ -5,3 +5,4 @@ export { default as TicketCreatedEvent } from "./ticket-created-event";
 export { default as TicketUpdatedEvent } from "./ticket-updated-event";
 export { default as OrderCreatedEvent } from "./order-created-event";
 export { default as OrderCancelledUserEvent } from "./order-cancelled-user-event";
+export { default as ExpirationCompleteEvent } from "./expiration-complete-event";
