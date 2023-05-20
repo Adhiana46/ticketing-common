@@ -22,6 +22,7 @@ export {
   TicketUpdatedEvent,
   OrderCreatedEvent,
   OrderCancelledUserEvent,
+  OrderCancelledExpireEvent,
   ExpirationCompleteEvent,
 } from "./events";
 
