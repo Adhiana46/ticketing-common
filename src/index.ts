@@ -24,6 +24,7 @@ export {
   OrderCancelledUserEvent,
   OrderCancelledExpireEvent,
   ExpirationCompleteEvent,
+  PaymentCreatedEvent,
 } from "./events";
 
 export * from "./events/types/order-status";

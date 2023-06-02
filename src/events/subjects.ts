@@ -7,6 +7,8 @@ enum Subjects {
   OrderCanceledExpire = "order:canceled-expire",
 
   ExpirationComplete = "expiration:complete",
+
+  PaymentCreated = "payment:created",
 }
 
 export default Subjects;
